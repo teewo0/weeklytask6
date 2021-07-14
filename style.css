@@ -1,0 +1,27 @@
+.mainbody .mainbody2 {
+    background-color: azure;
+
+}
+
+.mainbody .mainbody2 .site-title h2 {
+    padding-top: 20%;
+    font-weight: 500;
+    
+}
+
+.mainbody .mainbody2 .site-title h2::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.mainbody .mainbody2 .site-title h1{
+    font-size: 70px;
+}
+.title-text {
+    font: normal bold 50px/72px;
+}
